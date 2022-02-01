@@ -1,0 +1,123 @@
+Sample name	Sample ID	Sample ontology ID	Facet ontology ID	Facet ontology term
+T-cell, Adult 	ENCFF283NJI	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF715TCC	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF096GHS	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF283USW	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF845VIU	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF293MVC	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF126MXQ	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF051GHB	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF547RIP	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF018HDG	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF890PGM	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF108ELD	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF278OYI	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF288WLP	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF664LPX	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF365VAK	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF648TSX	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF809SGB	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF907FEO	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF377VKY	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF625OES	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF207YBC	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF265CVR	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF821PAI	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF558ELY	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF387TXI	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF055SUH	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF201MUP	CL:0000084	CL:0000542	lymphocyte
+T-cell, Adult 	ENCFF407PIT	CL:0000084	CL:0000542	lymphocyte
+B cell, Adult 	ENCFF822OGI	CL:0000236	CL:0000542	lymphocyte
+natural killer cell, Adult 	ENCFF752UBN	CL:0000623	CL:0000542	lymphocyte
+CD4-positive,  alpha-beta T cell, Adult 	ENCFF673DMO	CL:0000624	CL:0000542	lymphocyte
+CD4-positive,  alpha-beta T cell, Adult 	ENCFF585SDX	CL:0000624	CL:0000542	lymphocyte
+CD4-positive,  alpha-beta T cell, Adult 	ENCFF531YGS	CL:0000624	CL:0000542	lymphocyte
+CD4-positive,  alpha-beta T cell, Adult 	ENCFF271MWD	CL:0000624	CL:0000542	lymphocyte
+CD4-positive,  alpha-beta T cell, Adult 	ENCFF874YSD	CL:0000624	CL:0000542	lymphocyte
+CD4-positive,  alpha-beta T cell, Adult 	ENCFF824XID	CL:0000624	CL:0000542	lymphocyte
+CD4-positive,  alpha-beta T cell, Adult 	ENCFF916EGX	CL:0000624	CL:0000542	lymphocyte
+CD8-positive,  alpha-beta T cell, Adult 	ENCFF873DYN	CL:0000625	CL:0000542	lymphocyte
+CD8-positive,  alpha-beta T cell, Adult 	ENCFF432ZTH	CL:0000625	CL:0000542	lymphocyte
+CD8-positive,  alpha-beta T cell, Adult 	ENCFF580KMF	CL:0000625	CL:0000542	lymphocyte
+CD8-positive,  alpha-beta T cell, Adult 	ENCFF017RVJ	CL:0000625	CL:0000542	lymphocyte
+CD14-positive monocyte, Adult 	ENCFF527BCW	CL:0001054	CL:0000542	lymphocyte
+left ventricle myocardium inferior, Adult 	ENCFF616QAS	NTR:0000493	UBERON:0000948	heart
+large intestine, Embryo/Fetal 	ENCFF926EMP	UBERON:0000059	UBERON:0000059	large intestine
+large intestine, Embryo/Fetal 	ENCFF479ENE	UBERON:0000059	UBERON:0000059	large intestine
+testis, Adult 	ENCFF386AZI	UBERON:0000473	UBERON:0000473	testis
+stomach, Embryo/Fetal 	ENCFF198SPF	UBERON:0000945	UBERON:0000945	stomach
+aorta, Adult 	ENCFF934AZP	UBERON:0000947	UBERON:0001981	blood vessel
+aorta, Adult 	ENCFF381CDO	UBERON:0000947	UBERON:0001981	blood vessel
+ovary, Adult 	ENCFF218QGZ	UBERON:0000992	UBERON:0000992	female gonad
+ovary, Adult 	ENCFF180HNU	UBERON:0000992	UBERON:0000992	female gonad
+ovary, Adult 	ENCFF764XZE	UBERON:0000992	UBERON:0000992	female gonad
+ovary, Adult 	ENCFF072TLG	UBERON:0000992	UBERON:0000992	female gonad
+ovary, Adult 	ENCFF072TVW	UBERON:0000992	UBERON:0000992	female gonad
+uterus, Adult 	ENCFF914KBU	UBERON:0000995	UBERON:0000995	uterus
+uterus, Adult 	ENCFF130PVC	UBERON:0000995	UBERON:0000995	uterus
+right lobe of liver, Adult 	ENCFF397QAV	UBERON:0001114	UBERON:0002107	liver
+right lobe of liver, Adult 	ENCFF427BNB	UBERON:0001114	UBERON:0002107	liver
+body of pancreas, Adult 	ENCFF611ZEI	UBERON:0001150	UBERON:0001264	pancreas
+body of pancreas, Adult 	ENCFF153EIC	UBERON:0001150	UBERON:0001264	pancreas
+body of pancreas, Adult 	ENCFF855BHV	UBERON:0001150	UBERON:0001264	pancreas
+transverse colon, Adult 	ENCFF568ZEU	UBERON:0001157	UBERON:0000059	large intestine
+sigmoid colon, Adult 	ENCFF531YYI	UBERON:0001159	UBERON:0000059	large intestine
+Peyer's patch, Adult 	ENCFF799FGK	UBERON:0001211	UBERON:0001211	Peyer's patch
+Peyer's patch, Adult 	ENCFF484DQZ	UBERON:0001211	UBERON:0001211	Peyer's patch
+pancreas, Adult 	ENCFF025CEB	UBERON:0001264	UBERON:0001264	pancreas
+pancreas, Adult 	ENCFF180RAM	UBERON:0001264	UBERON:0001264	pancreas
+pancreas, Adult 	ENCFF988IQG	UBERON:0001264	UBERON:0001264	pancreas
+pancreas, Adult 	ENCFF979ZTM	UBERON:0001264	UBERON:0001264	pancreas
+pancreas, Adult 	ENCFF456GDF	UBERON:0001264	UBERON:0001264	pancreas
+muscle of leg, Embryo/Fetal 	ENCFF622FLC	UBERON:0001383	UBERON:0001134	skeletal muscle tissue
+muscle of trunk, Embryo/Fetal 	ENCFF537QES	UBERON:0001774	UBERON:0001134	skeletal muscle tissue
+placenta, Embryo/Fetal 	ENCFF653EJM	UBERON:0001987	UBERON:0001987	placenta
+placenta, Embryo/Fetal 	ENCFF906DOW	UBERON:0001987	UBERON:0001987	placenta
+placenta, Embryo/Fetal 	ENCFF591OSK	UBERON:0001987	UBERON:0001987	placenta
+placenta, Embryo/Fetal 	ENCFF342QKJ	UBERON:0001987	UBERON:0001987	placenta
+placenta, Embryo/Fetal 	ENCFF289OUW	UBERON:0001987	UBERON:0001987	placenta
+placenta, Embryo/Fetal 	ENCFF299BOK	UBERON:0001987	UBERON:0001987	placenta
+placenta, Embryo/Fetal 	ENCFF087RIS	UBERON:0001987	UBERON:0001987	placenta
+placenta, Embryo/Fetal 	ENCFF142TSY	UBERON:0001987	UBERON:0001987	placenta
+placenta, Embryo/Fetal 	ENCFF417GFB	UBERON:0001987	UBERON:0001987	placenta
+placenta, Embryo/Fetal 	ENCFF294GFM	UBERON:0001987	UBERON:0001987	placenta
+placenta, Embryo/Fetal 	ENCFF828ORU	UBERON:0001987	UBERON:0001987	placenta
+placenta, Embryo/Fetal 	ENCFF549ODR	UBERON:0001987	UBERON:0001987	placenta
+thyroid gland, Adult 	ENCFF355MYX	UBERON:0002046	UBERON:0002046	thyroid gland
+right cardiac atrium, Adult 	ENCFF103KZD	UBERON:0002078	UBERON:0000948	heart
+right cardiac atrium, Adult 	ENCFF104IKA	UBERON:0002078	UBERON:0000948	heart
+right cardiac atrium, Adult 	ENCFF369ITQ	UBERON:0002078	UBERON:0000948	heart
+heart right ventricle, Adult 	ENCFF366VIM	UBERON:0002080	UBERON:0000948	heart
+heart right ventricle, Adult 	ENCFF287TWO	UBERON:0002080	UBERON:0000948	heart
+heart left ventricle, Adult 	ENCFF631HMZ	UBERON:0002084	UBERON:0000948	heart
+heart left ventricle, Adult 	ENCFF284XQW	UBERON:0002084	UBERON:0000948	heart
+heart left ventricle, Adult 	ENCFF682TBE	UBERON:0002084	UBERON:0000948	heart
+heart left ventricle, Adult 	ENCFF041ZOJ	UBERON:0002084	UBERON:0000948	heart
+heart left ventricle, Adult 	ENCFF154ILG	UBERON:0002084	UBERON:0000948	heart
+spleen, Adult 	ENCFF136TSS	UBERON:0002106	UBERON:0002106	spleen
+small intestine, Adult 	ENCFF742VCI	UBERON:0002108	UBERON:0002108	small intestine
+small intestine, Embryo/Fetal 	ENCFF868XKM	UBERON:0002108	UBERON:0002108	small intestine
+kidney, Adult 	ENCFF698CEN	UBERON:0002113	UBERON:0002113	kidney
+left lung, Adult 	ENCFF277SFH	UBERON:0002168	UBERON:0002048	lung
+adrenal gland, Adult 	ENCFF646WNW	UBERON:0002369	UBERON:0002369	adrenal gland
+adrenal gland, Adult 	ENCFF683WUB	UBERON:0002369	UBERON:0002369	adrenal gland
+adrenal gland, Adult 	ENCFF208SNA	UBERON:0002369	UBERON:0002369	adrenal gland
+adrenal gland, Adult 	ENCFF820EVO	UBERON:0002369	UBERON:0002369	adrenal gland
+adrenal gland, Adult 	ENCFF524ITC	UBERON:0002369	UBERON:0002369	adrenal gland
+middle frontal area 46, Adult 	ENCFF375NXF	UBERON:0006483	UBERON:0000955	brain
+middle frontal area 46, Adult 	ENCFF291ZCY	UBERON:0006483	UBERON:0000955	brain
+middle frontal area 46, Adult 	ENCFF617VLY	UBERON:0006483	UBERON:0000955	brain
+middle frontal area 46, Adult 	ENCFF647TPO	UBERON:0006483	UBERON:0000955	brain
+middle frontal area 46, Adult 	ENCFF344RYW	UBERON:0006483	UBERON:0000955	brain
+middle frontal area 46, Adult 	ENCFF206ZKI	UBERON:0006483	UBERON:0000955	brain
+middle frontal area 46, Adult 	ENCFF892OLB	UBERON:0006483	UBERON:0000955	brain
+middle frontal area 46, Adult 	ENCFF879QFZ	UBERON:0006483	UBERON:0000955	brain
+middle frontal area 46, Adult 	ENCFF865REX	UBERON:0006483	UBERON:0000955	brain
+tibial artery, Adult 	ENCFF090MWN	UBERON:0007610	UBERON:0001981	blood vessel
+tibial artery, Adult 	ENCFF217PGC	UBERON:0007610	UBERON:0001981	blood vessel
+upper lobe of left lung, Adult 	ENCFF824KSF	UBERON:0008952	UBERON:0002048	lung
+upper lobe of left lung, Adult 	ENCFF125WQU	UBERON:0008952	UBERON:0002048	lung
+lower lobe of left lung, Adult 	ENCFF003RMN	UBERON:0008953	UBERON:0002048	lung
+lower lobe of left lung, Adult 	ENCFF483RKV	UBERON:0008953	UBERON:0002048	lung
+gastrocnemius medialis, Adult	ENCFF490UZS	UBERON:0011907	UBERON:0001134	skeletal muscle tissue
