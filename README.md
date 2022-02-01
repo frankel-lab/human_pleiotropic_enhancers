@@ -63,6 +63,13 @@ Install from git
 git clone https://github.com/laiker96/human_pleiotropic_enhancers
 cd human_pleiotropic_enhancers
 ```
+You should then add the repository to your $PATH environment variable.
+
 
 ## How to run
-ENCODE data can be downloaded in parallel with the utility script download_ENCODE_files.sh. All BAM files must be on the same directory and named as ```<ACCESSION_ID>.bam``` and similarly BAM index bai files as ```<ACCESSION_ID>.bam.bai```. Similarly, all H3K27ac narrowPeak files can be downloaded with the same script. 
+ENCODE data can be downloaded in parallel with the utility script download_ENCODE_files.sh. All BAM files must be on the same directory and named as ```<ACCESSION_ID>.bam``` and similarly BAM index bai files as ```<ACCESSION_ID>.bam.bai```. Similarly, all H3K27ac narrowPeak files can be downloaded with the same script. To run the whole pipeline:
+```
+create_consensus_elements.sh DNase_datasets_ENCODE_Roadmaps_metadata.tsv H3K27ac_datasets_ENCODE_Roadmaps_metadata.tsv <THREADS> <OVERLAP_FRACTION_REPLICATES> <OVERLAP_FRACTION_CONSENSUS_ELEMENTS> ENCODE_TissueFacets_metadata.tsv
+```
+
+
