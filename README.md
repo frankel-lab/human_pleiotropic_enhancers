@@ -67,7 +67,17 @@ You should then add the repository to your $PATH environment variable.
 
 
 ## How to run
-ENCODE data can be downloaded in parallel with the utility script ```download_ENCODE_files.sh```. All BAM files must be on the same directory and named as ```<ACCESSION_ID>.bam``` and similarly BAM index bai files as ```<ACCESSION_ID>.bam.bai```. Similarly, all H3K27ac narrowPeak files can be downloaded with the same script. To run the whole pipeline from the BAM and narrowPeak files:
+All DNaseI-seq BAM files must be on the same directory and named as ```<ACCESSION_ID>.bam``` and similarly BAM index bai files as ```<ACCESSION_ID>.bam.bai```. BAM files used in the paper can be downloaded with:
+```
+$ download_ENCODE_files.sh DNase_datasets_ENCODE_Roadmaps_metadata.tsv "BAM" <THREADS>
+```
+Similarly, all H3K27ac ChIP-seq narrowPeak.gz files can be downloaded with the same script:
+```
+$ download_ENCODE_files.sh H3K27ac_datasets_ENCODE_Roadmaps_metadata.tsv "narrowPeak" <THREADS>
+```
+You should decompress these .gz files with ```gunzip```.
+
+To run the whole pipeline from the BAM and narrowPeak files:
 ```
 $ create_consensus_elements.sh DNase_datasets_ENCODE_Roadmaps_metadata.tsv H3K27ac_datasets_ENCODE_Roadmaps_metadata.tsv <THREADS> <OVERLAP_FRACTION_REPLICATES> <OVERLAP_FRACTION_CONSENSUS_ELEMENTS> ENCODE_TissueFacets_metadata.tsv
 ```
