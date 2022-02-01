@@ -14,10 +14,14 @@ Code to recreate the consensus distal regulatory elements (a.k.a ENCODE enhancer
 
 Consensus distal regulatory elements are open (DNaseI-seq peaks) and acetylated (with the H3K27ac histone mark) elements present in one or more of the 
 spatio-temporal contexts (organs, tissues or cell types). The pipeline to obtain these elements from DNaseI-seq experiments BAM alignment files and
-enriched H3K27ac genomic regions bed files is summarized in the figure. Briefly, DNaseI-seq bam files are feeded to the MACS2 peakcaller algorithm and processed in parallel with GNU-parallel. This step outputs narrowPeak files (bed files) with the open chromatin elements genomic coordinates for each experiment. Then, the Signal To Noise Ratio (SNR) of each of these experiments is estimated with featureCounts and the narrowPeak with its corresponding BAM file. For each context, the higher SNR experiment is used as an anchor to create summit confidence intervals for each tissue. These intervals are then intersected between tissues to create summit clusters (genomic regions with high density of acetylated open chromatin summits). These clusters are then extended using the previously called MACS2 peaks and elements overlapping more than a given threshold are merged. Each sonesnsus element is then annotated based on the tissues it was found active. Similar tissues (of the same organ) are then collapsed to the corresponding organ.
+enriched H3K27ac genomic regions bed files is summarized in the figure. Briefly, DNaseI-seq bam files are feeded to the MACS2 peakcaller algorithm and processed in parallel with GNU-parallel. This step outputs narrowPeak files (bed files) with the open chromatin elements genomic coordinates for each experiment. 
 
 
 ![alt text](pipelineS2.png "pipeline")
+
+
+Then, the Signal To Noise Ratio (SNR) of each of these experiments is estimated with featureCounts and the narrowPeak with its corresponding BAM file. For each context, the higher SNR experiment is used as an anchor to create summit confidence intervals for each tissue. These intervals are then intersected between tissues to create summit clusters (genomic regions with high density of acetylated open chromatin summits). These clusters are then extended using the previously called MACS2 peaks and elements overlapping more than a given threshold are merged. Each consensus element is then annotated based on the tissues it was found active. Similar tissues (of the same organ) are then collapsed to the corresponding organ.
+
 
 ## System requirements
 ### OS requirements
