@@ -1,7 +1,7 @@
 #! /bin/bash
 
 #Author:laiker96
-#Dependencies: {macs2, gnu-parallel}
+#Dependencies: {bedtools, R}
 #ENCODE_METADATA_FILE is a tsv downloaded from ENCODE portal
 #that contains information of each experiment, such as 
 #accession numbers and UBERON ontology terms
@@ -52,8 +52,6 @@ function intersectH3K27acDNaseData {
 			| bedtools sort \
 			| uniq > H3K27ac"$(cut -f 1 "$k"_SNRs.txt | tail -n 1)"_peaks.narrowPeak
 		
-		#mkdir -p "$k"/highest_SNR_file
-		#mv "$(cut -f 1 "$k"_SNRs.txt | tail -n 1)"_peaks.narrowPeak "$k"/highest_SNR_file
 
 	done < <(echo "$UBERON_IDS")
 }
