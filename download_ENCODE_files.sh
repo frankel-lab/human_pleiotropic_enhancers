@@ -33,8 +33,6 @@ function DownloadEncodeData {
 	#Files in narrowPeak (bed.gz) format
 	else
 
-		#sed 's/$/.gz/' "$ID".links > tmp
-		#mv tmp "$ID".links
 		parallel -a "$ID."links -j "$3" curl -O -J -L {}
 	fi
 
