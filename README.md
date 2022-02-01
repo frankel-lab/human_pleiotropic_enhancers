@@ -85,5 +85,3 @@ To run the whole pipeline from the BAM and narrowPeak files:
 ```
 $ create_consensus_elements.sh DNase_datasets_ENCODE_Roadmaps_metadata.tsv H3K27ac_datasets_ENCODE_Roadmaps_metadata.tsv <THREADS> <OVERLAP_FRACTION_REPLICATES> <OVERLAP_FRACTION_CONSENSUS_ELEMENTS> ENCODE_TissueFacets_metadata.tsv
 ```
-
-
