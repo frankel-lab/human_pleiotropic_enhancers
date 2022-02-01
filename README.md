@@ -24,7 +24,7 @@ Then, the Signal To Noise Ratio (SNR) of each of these experiments is estimated 
 The pipeline structure is depicted in the following figure:
 
 
-![alt text](pipelineS2.png "pipeline")
+![alt text](pipeline_str.png "pipeline structure")
 
 
 ## System requirements
