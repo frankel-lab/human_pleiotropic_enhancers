@@ -21,6 +21,10 @@ enriched H3K27ac genomic regions bed files is summarized in the figure. Briefly,
 
 
 Then, the Signal To Noise Ratio (SNR) of each of these experiments is estimated with featureCounts and the narrowPeak with its corresponding BAM file. For each context, the higher SNR experiment is used as an anchor to create summit confidence intervals for each tissue. These intervals are then intersected between tissues to create summit clusters (genomic regions with high density of acetylated open chromatin summits). These clusters are then extended using the previously called MACS2 peaks and elements overlapping more than a given threshold are merged. Each consensus element is then annotated based on the tissues it was found active. Similar tissues (of the same organ) are then collapsed to the corresponding organ.
+The pipeline structure is depicted in the following figure:
+
+
+![alt text](pipelineS2.png "pipeline")
 
 
 ## System requirements
